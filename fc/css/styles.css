@@ -387,3 +387,239 @@ color: #951c49;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FC Anonymous</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="pull-left visible-md visible-lg">
+                    <div id="logo-img" alt="Logo image"></div>
+                </a>
+                <div class="navbar-brand">
+                    <a href="index.html">
+                        <h1>FC ANONYMOUS</h1>
+                    </a>
+                    <p> <img src="images/fourstar.png" alt="logo">
+                        <span>We Are Anonymous </span>
+                    </p>
+                </div>
+
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+    </div>
+           <div id="collapsable-nav" class="collapse-navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+                <li class="visible-xs active">
+                    <a href="index.html">
+                        <span class="glyphicon glyphicon-home">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="menu-categories.html">
+                        <span class="glyphicon glyphicon-th-large"></span><br class="hidden-xs">Menu
+                        </a>
+                </li>
+                <li>
+                    <a href="formation.html">
+                        <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
+                        </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Awards
+                        </a>
+                </li>
+                <li id="phone" class="hidden-xs">
+                    <a href="">
+                        <span>+880***</span>
+                    </a>
+                    <div> * updating soon </div>
+                </li>
+            </ul><!-- #nav-list  -->
+        
+           </div><!-- .collapse.navbar-collapse  -->
+
+    </div><!-- .container  -->
+        </nav><!-- #header-nav  -->
+    </header>
+
+
+    <div id="call-btn" class="visible-xs">
+    <a class="btn" href="">
+        <span class="glyphicon glyphicon-earphone"></span>+880***
+    </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">* updating soon </div>
+
+    <div id="main-content" class="container">
+        <div class="jumbotron">
+            <img src="images/jumbotron.jpg" alt="Pic of us" class="img-responsive visible-xs">
+        </div>
+        <!-- /////// -->
+
+
+        <div id="home-tiles" class="row">
+
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="menu-categories.html">
+                    <div id="menu-tile"><span>menu</span></div>
+                </a>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="single-category.html">
+                    <div id="specials-tile"><span>GALLERY</span></div>
+                </a>
+            </div>  
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <a href="https://goo.gl/maps/qB8Q8ArFcee4AEKU6" target="_blank">
+                    <div id="map-tile"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233713.5366334781!2d90.34584452483024!3d23.75543695508446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2z4Kai4Ka-4KaV4Ka-!5e0!3m2!1sbn!2sbd!4v1637127782658!5m2!1sbn!2sbd" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe><span>map</span></div>
+                </a>
+            </div>
+
+        </div><!-- End of #home-tiles  -->
+
+        <!-- /////// -->
+
+
+
+
+
+
+
+
+<!-- /////// -->
+
+
+        <div id="home-tiles" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="formation.html">
+                    <div id="menu-tile"><span>about</span></div>
+                </a>
+            </div>
+
+
+        </div><!-- End of #home-tiles  -->
+
+        <!-- /////// -->
+
+
+
+    </div><!-- End of #main-content -->
+
+
+     <footer class="panel-footer">
+        <div class="container">
+             <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>E-mail:</span><br>
+                     abeer716@yahoo.com<br>
+                     <span><p>FB Page Link:<br>
+                     <a href="https://www.facebook.com/anonymousfootball/"
+                       target="_blank" title="Like Our Page!">Anonymous Football Club
+                     </a>
+                     </p></span><br>
+
+                    
+                     <hr class="visible-xs">
+                </section>
+
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                     Dhaka,Bangladesh<br><br>
+                    
+                     <p>We Are Remians HSC-19</p>
+                     <hr class="visible-xs">
+                </section>
+
+                <section id="testimonials" class="col-sm-4">
+                     <p>"Website is under construction."</p>
+                     <p>"Updates are coming soon !"</p><br>
+                     <p>"Play with pride,Play with passion !"</p>
+                     <hr class="visible-xs">
+                </section>
+             </div>
+
+           <div class="text-center">&copy; Copyright FC Anonymous 2021</div>
+
+        </div>
+     </footer>
+
+
+     <!-- jQuery -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
