@@ -38,6 +38,7 @@ line-height: .75;
 }
 
 .navbar-brand a:hover , .navbar-brand a:focus {text-decoration:none;}
+.myclass a:hover , .myclass a:focus {text-decoration:none;}
 
 .navbar-brand p {/* Kosher cert */
 color: #000;
@@ -80,16 +81,18 @@ padding-right: 15px;
  }
 
 
-#menu-tile, #specials-tile, #map-tile {
+#menu-tile, #specials-tile, #map-tile ,#added-tile {
 	height: 250px;
 	width: 100%;
 	margin-bottom: 15px;
 	position: relative;
 	border: 2px solid #3F0C1F;
 	overflow: hidden;
+	color: black;
+
 }
 
-#menu-tile:hover , #specials-tile:hover , #map-tile:hover{
+#menu-tile:hover , #specials-tile:hover , #map-tile:hover , {
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
 
@@ -103,7 +106,16 @@ padding-right: 15px;
 	background-position: center;
 }
 
-#menu-tile span, #specials-tile span, #map-tile span {
+#added-tile {
+
+	background-position: center;
+	background-color: grey;
+	padding: 25px;
+}
+
+
+
+#menu-tile span, #specials-tile span, #map-tile span ,#added-tile span{
 position: absolute;
 bottom: 0;
 right: 0;
